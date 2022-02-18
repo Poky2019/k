@@ -902,7 +902,7 @@ class PlayState extends MusicBeatState
 		eventPushedMap = null;
 
 		var creditText:FlxText = new FlxText(876, 648, 348);
-		creditText.text = 'PORTED BY\nPOKY.201';
+		creditText.text = 'PORTED BY\nPOKY.2011';
 		creditText.setFormat(Paths.font("vcr.ttf"), 30, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE,FlxColor.BLACK);
 		creditText.cameras = [camHUD];
 		creditText.scrollFactor.set();
